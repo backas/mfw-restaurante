@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700');
+:root {
+  --raleway: 'Raleway', sans-serif;
+  --lobster: 'Lobster', cursive, sans-serif;
+}
+
+/* OOCSS */
+
+.font-bold {
+  font-weight: bolder;
+}
+
+body {
+  background: #000;
+  position: relative;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+}
+.logo {
+  display: inline-block;
+}
+.cutlery-logo {
+  width: 250px;
+}
+.carousel-caption {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+}
+
+#story, #review, #menu, #contact {
+  height: 100vh;
+}
+
+#story {
+  background: #bada55;
+}
+
+#review {
+  background: tomato;
+}
+
+#menu {
+  background: rebeccapurple;
+}
+
+#contact {
+  background: dodgerblue;
+}
